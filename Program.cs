@@ -13,11 +13,7 @@ namespace FizzBuzz
             }
             for (int i = 0; i < arrayNum.Length; i++)
             {
-                 if (arrayNum[i]%100 == 0)
-                 {
-                    Console.WriteLine("FizzBuzz");
-                 }
-                 else if (arrayNum[i]%3 == 0 && arrayNum[i]%5 == 0)
+                 if (arrayNum[i]%3 == 0 && arrayNum[i]%5 == 0)
                  {
                     Console.WriteLine("FizzBuzz");
                  }
@@ -31,6 +27,7 @@ namespace FizzBuzz
                  }
                  else
                     Console.WriteLine(arrayNum[i]);
+        }
         }
     }
 }
